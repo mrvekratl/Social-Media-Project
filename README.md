@@ -24,7 +24,6 @@ This project is a **RESTful Web API**-based social media platform designed to su
 ## 📂 Project Structure
 The project follows a clean architecture pattern for better maintainability and scalability. Here is the breakdown:
 
-```plaintext
 /SocialMediaAPI
 │── SocialMedia.API           # Web API Layer - Defines the API endpoints and controls the communication with the client
 │── SocialMedia.Core          # Business Logic and Models Layer - Contains core logic and domain models
