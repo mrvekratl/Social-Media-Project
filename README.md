@@ -22,15 +22,27 @@ This project is a **RESTful Web API**-based social media platform designed to su
 - 🌍 **Docker & Deployment** (Azure App Services / AWS support)
 
 ## 📂 Project Structure
-The project follows a clean architecture pattern for better maintainability and scalability. Here is the breakdown:
 
-/SocialMediaAPI
-│── SocialMedia.API           # Web API Layer - Defines the API endpoints and controls the communication with the client
-│── SocialMedia.Core          # Business Logic and Models Layer - Contains core logic and domain models
-│── SocialMedia.Infrastructure # Data Access Layer - Responsible for database interactions using Entity Framework
-│── SocialMedia.Tests         # Unit Tests - Includes tests to ensure API functionality and reliability
-│── docker-compose.yml        # Docker Configuration - For containerizing the application for deployment
-│── README.md                 # Project Documentation
+This project follows a **clean architecture** pattern, separating concerns into distinct layers for better maintainability and scalability. Here's a breakdown of the project structure:
+
+
+| Folder                        | Description                                                   |
+|-------------------------------|---------------------------------------------------------------|
+| **SocialMedia.API**            | Web API Layer - Defines the API endpoints and handles client communication |
+| **SocialMedia.Core**           | Business Logic and Models Layer - Contains core business logic and domain models |
+| **SocialMedia.Infrastructure** | Data Access Layer - Responsible for interacting with the database using Entity Framework Core |
+| **SocialMedia.Tests**          | Unit Tests - Contains tests to ensure API functionality and code reliability |
+| **docker-compose.yml**         | Docker Configuration - For containerizing the application for deployment |
+| **README.md**                  | Project Documentation - This file                           |
+
+
+In this structure:
+
+The API layer handles requests and responses.
+The Core layer contains business logic and models that are independent of other layers.
+The Infrastructure layer is responsible for database interactions and external services.
+Tests are located in a separate directory for better separation of concerns.
+This architecture makes it easier to maintain, scale, and test the project.
 
 
 ## 🛠️ Installation
