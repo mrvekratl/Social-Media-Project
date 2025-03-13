@@ -46,14 +46,12 @@ Ensure that you have the following dependencies installed on your machine:
 ### 2️⃣ Clone the Repository
 Clone the repository to your local machine:
 
-```sh
 git clone https://github.com/your-username/social-media-api.git
 cd social-media-api
 
 ### 3️⃣ Restore Dependencies
 After cloning the repository, restore the required dependencies for the project using the .NET CLI:
 
-```sh
 dotnet restore
 
 ### 4️⃣ Initialize the Database
