@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Project Architecture</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        svg {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .node {
+            fill: #ffffff;
+            stroke: #0078D7;
+            stroke-width: 2;
+            rx: 12;
+            ry: 12;
+            filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.2));
+            transition: all 0.3s ease-in-out;
+        }
+
+            .node:hover {
+                fill: #0078D7;
+                stroke: #005A9E;
+                transform: scale(1.05);
+            }
+
+        .label {
+            font: bold 16px sans-serif;
+            fill: #333;
+            text-anchor: middle;
+            transition: all 0.3s ease-in-out;
+        }
+
+            .label:hover {
+                fill: #ffffff;
+                font-size: 18px;
+                transform: scale(1.1);
+            }
+
+        .component-label {
+            font: 14px sans-serif;
+            fill: #666;
+            text-anchor: middle;
+            transition: all 0.3s ease-in-out;
+        }
+
+            .component-label:hover {
+                fill: #000;
+                font-size: 16px;
+            }
+
+        .arrow {
+            fill: none;
+            stroke: #0078D7;
+            stroke-width: 2;
+            marker-end: url(#arrowhead);
+        }
+    </style>
+</head>
+<body>
+    <h1>Social Media Project Architecture</h1>
+
+    <svg width="800" height="500">
+        <defs>
+            <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+                <polygon points="0 0, 10 3.5, 0 7" fill="#0078D7" />
+            </marker>
+        </defs>
+
+        <!-- User Interface -->
+        <rect x="50" y="50" width="200" height="100" class="node"></rect>
+        <text x="150" y="90" class="label">User Interface</text>
+
+        <!-- API Layer -->
+        <rect x="300" y="50" width="200" height="100" class="node"></rect>
+        <text x="400" y="90" class="label">ASP.NET Core API</text>
+        <text x="400" y="120" class="component-label">Web API Layer</text>
+
+        <!-- Data Access Layer -->
+        <rect x="550" y="50" width="200" height="100" class="node"></rect>
+        <text x="650" y="90" class="label">Data Access</text>
+        <text x="650" y="120" class="component-label">Entity Framework Core</text>
+
+        <!-- Database -->
+        <rect x="300" y="200" width="200" height="100" class="node"></rect>
+        <text x="400" y="240" class="label">Database</text>
+        <text x="400" y="270" class="component-label">Microsoft SQL Server</text>
+
+        <!-- Authentication -->
+        <rect x="50" y="200" width="200" height="100" class="node"></rect>
+        <text x="150" y="240" class="label">Authentication</text>
+        <text x="150" y="270" class="component-label">JWT, OAuth</text>
+
+        <!-- Caching -->
+        <rect x="550" y="200" width="200" height="100" class="node"></rect>
+        <text x="650" y="240" class="label">Caching</text>
+        <text x="650" y="270" class="component-label">Redis</text>
+
+        <!-- Notifications -->
+        <rect x="300" y="350" width="200" height="100" class="node"></rect>
+        <text x="400" y="390" class="label">Notifications</text>
+        <text x="400" y="420" class="component-label">SignalR</text>
+
+        <!-- Testing -->
+        <rect x="50" y="350" width="200" height="100" class="node"></rect>
+        <text x="150" y="390" class="label">Testing</text>
+        <text x="150" y="420" class="component-label">xUnit</text>
+
+        <!-- Arrows -->
+        <line x1="250" y1="100" x2="300" y2="100" class="arrow" />
+        <line x1="500" y1="100" x2="550" y2="100" class="arrow" />
+        <line x1="400" y1="150" x2="400" y2="200" class="arrow" />
+        <line x1="150" y1="150" x2="150" y2="200" class="arrow" />
+        <line x1="650" y1="150" x2="650" y2="200" class="arrow" />
+        <line x1="400" y1="300" x2="400" y2="350" class="arrow" />
+        <line x1="150" y1="300" x2="150" y2="350" class="arrow" />
+    </svg>
+</body>
+</html>
