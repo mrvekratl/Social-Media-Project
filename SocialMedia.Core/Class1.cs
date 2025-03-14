@@ -1,6 +1,7 @@
-﻿namespace SocialMedia.Core;
-
-public class Class1
+﻿namespace SocialMedia.Core
 {
+    public class Class1
+    {
 
+    }
 }

@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "OlBN2+WIdzk=",
+  "dgSpecHash": "nuGbmN86ffM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Monster\\Desktop\\Github\\Social Media Project\\SocialMedia.API\\SocialMediaAPI.csproj",
+  "projectFilePath": "C:\\Users\\Monster\\Desktop\\Github\\Social Media Project\\Social-Media-Project\\SocialMedia.API\\SocialMedia.API.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Monster\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.14\\microsoft.aspnetcore.openapi.8.0.14.nupkg.sha512",
     "C:\\Users\\Monster\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Monster\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
     "C:\\Users\\Monster\\.nuget\\packages\\swashbuckle.aspnetcore\\6.6.2\\swashbuckle.aspnetcore.6.6.2.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Monster\\Desktop\\Github\\Social Media Project\\SocialMedia.Core\\SocialMedia.Core.csproj": {}
+    "C:\\Users\\Monster\\Desktop\\Github\\Social Media Project\\Social-Media-Project\\SocialMedia.Core\\SocialMedia.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Monster\\Desktop\\Github\\Social Media Project\\SocialMedia.Core\\SocialMedia.Core.csproj": {
+    "C:\\Users\\Monster\\Desktop\\Github\\Social Media Project\\Social-Media-Project\\SocialMedia.Core\\SocialMedia.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Monster\\Desktop\\Github\\Social Media Project\\SocialMedia.Core\\SocialMedia.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Monster\\Desktop\\Github\\Social Media Project\\Social-Media-Project\\SocialMedia.Core\\SocialMedia.Core.csproj",
         "projectName": "SocialMedia.Core",
-        "projectPath": "C:\\Users\\Monster\\Desktop\\Github\\Social Media Project\\SocialMedia.Core\\SocialMedia.Core.csproj",
+        "projectPath": "C:\\Users\\Monster\\Desktop\\Github\\Social Media Project\\Social-Media-Project\\SocialMedia.Core\\SocialMedia.Core.csproj",
         "packagesPath": "C:\\Users\\Monster\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Monster\\Desktop\\Github\\Social Media Project\\SocialMedia.Core\\obj\\",
+        "outputPath": "C:\\Users\\Monster\\Desktop\\Github\\Social Media Project\\Social-Media-Project\\SocialMedia.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Monster\\AppData\\Roaming\\NuGet\\NuGet.Config",

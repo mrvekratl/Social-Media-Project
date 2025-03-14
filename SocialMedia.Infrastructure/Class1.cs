@@ -1,6 +1,7 @@
-﻿namespace SocialMedia.Infrastructure;
-
-public class Class1
+﻿namespace SocialMedia.Infrastructure
 {
+    public class Class1
+    {
 
+    }
 }
