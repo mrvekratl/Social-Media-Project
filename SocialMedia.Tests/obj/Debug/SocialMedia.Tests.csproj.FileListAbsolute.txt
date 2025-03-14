@@ -1,0 +1,15 @@
+C:\Users\Monster\Desktop\Github\Social Media Project\Social-Media-Project\SocialMedia.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Monster\Desktop\Github\Social Media Project\Social-Media-Project\SocialMedia.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Monster\Desktop\Github\Social Media Project\Social-Media-Project\SocialMedia.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Monster\Desktop\Github\Social Media Project\Social-Media-Project\SocialMedia.Tests\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\Monster\Desktop\Github\Social Media Project\Social-Media-Project\SocialMedia.Tests\bin\Debug\SocialMedia.Tests.dll
+C:\Users\Monster\Desktop\Github\Social Media Project\Social-Media-Project\SocialMedia.Tests\bin\Debug\SocialMedia.Tests.pdb
+C:\Users\Monster\Desktop\Github\Social Media Project\Social-Media-Project\SocialMedia.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Monster\Desktop\Github\Social Media Project\Social-Media-Project\SocialMedia.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Monster\Desktop\Github\Social Media Project\Social-Media-Project\SocialMedia.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Monster\Desktop\Github\Social Media Project\Social-Media-Project\SocialMedia.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Monster\Desktop\Github\Social Media Project\Social-Media-Project\SocialMedia.Tests\obj\Debug\SocialMedia.Tests.csproj.AssemblyReference.cache
+C:\Users\Monster\Desktop\Github\Social Media Project\Social-Media-Project\SocialMedia.Tests\obj\Debug\SocialMedia.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Monster\Desktop\Github\Social Media Project\Social-Media-Project\SocialMedia.Tests\obj\Debug\SocialMe.7CC59F2B.Up2Date
+C:\Users\Monster\Desktop\Github\Social Media Project\Social-Media-Project\SocialMedia.Tests\obj\Debug\SocialMedia.Tests.dll
+C:\Users\Monster\Desktop\Github\Social Media Project\Social-Media-Project\SocialMedia.Tests\obj\Debug\SocialMedia.Tests.pdb
